@@ -37,7 +37,7 @@ from strawberry.annotation import StrawberryAnnotation
 from strawberry.extensions.field_extension import FieldExtension
 from strawberry.types.field import _RESOLVER_TYPE  # noqa: PLC2701
 from strawberry.types.fields.resolver import StrawberryResolver
-from strawberry.types.info import Info  # noqa: TCH002
+from strawberry.types.info import Info  # noqa: TC002
 from strawberry.utils.await_maybe import await_maybe
 from typing_extensions import TypeAlias
 
